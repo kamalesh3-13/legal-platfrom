@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Stackly</title>
+<meta name="description" content="Legal-practice insights on client flow, deadlines and retention from the Stackly team — no jargon, no noise.">
+<link rel="icon" type="image/png" href="assets/favicon.png?v=4">
+<link rel="icon" type="image/webp" href="assets/favicon.webp?v=4">
+<link rel="apple-touch-icon" href="assets/favicon.png?v=4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/pages.css">
+<link rel="stylesheet" href="assets/theme.css?v=23">
+<link rel="stylesheet" href="assets/legal.css?v=1">
+<link rel="stylesheet" href="assets/updates.css?v=1">
+<style>
+.c-bio{margin:10px 0 0;font-size:14px;line-height:1.5;color:#D6CBB4}
+.blog-thumb.mockui{display:flex;align-items:center;justify-content:center}
+@media (max-width:900px){ .nav-links,.nav-right{display:none !important;} .burger{display:flex !important;} }</style>
+</head>
+<body class="pg-blog">
+<div id="preloader" aria-hidden="true"><div class="pl-inner"><img class="pl-logo-img" src="assets/logo-light.webp?v=4" alt="" width="280" height="81"><div class="pl-sub">LEGAL PLATFORM</div><div class="pl-line"><i></i></div></div></div>
+</div>
+
+<header>
+  <nav class="wrap">
+    <a class="brand" href="index.html">
+      <img class="brand-logo" src="assets/logo-brass.webp?v=5" alt="Stackly" width="145" height="42">
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Laws</a>
+      <a href="about.html">About</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-right">
+      <a class="login" href="login.html">Log in</a>
+      <a class="nav-cta" href="contact.html">Talk to Lawyer</a>
+    </div>
+    <div class="burger" id="burgerBtn"><span></span><span></span><span></span></div>
+  </nav>
+</header>
+
+<div class="mobile-nav-scrim" id="mobileNavScrim"></div>
+<div class="mobile-nav" id="mobileNav">
+  <a href="index.html">Home</a>
+  <a href="services.html">Laws</a>
+  <a href="about.html">About</a>
+  <a href="blog.html" class="active">Blog</a>
+  <a href="contact.html">Contact</a>
+  <a class="login" href="login.html">Log in</a>
+  <a class="nav-cta" href="contact.html">Talk to Lawyer</a>
+</div>
+
+<section class="page-hero has-photo">
+  
+  <div class="wrap">
+    <div class="ph-photo"><img style="object-position:60% 40%" src="assets/img/legal-09.webp" alt="A shelf of leather-bound law reports"><div class="aw-toast"><span class="ck">&#10003;</span><div><b>New this week</b><span>3 legal guides published</span></div></div></div>
+    <div class="ph-copy">
+    <img class="hero-logo" src="assets/logo-light.webp?v=4" alt="Stackly" width="190" height="55">
+      <div class="crumb"><a href="index.html">Stackly</a> / Blog</div>
+    <h1 data-split>Law firm insights, not noise.</h1>
+    <p class="lede">Client-flow breakdowns, reminder fixes and follow-up guidance written by the case managers who actually run law firms with us every week.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BROWSE BY TOPIC ===== -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="tag">Browse By Topic</div>
+        <h2>Four subjects, every practice note fits one.</h2>
+      </div>
+    </div>
+    <div class="gallery-grid reveal-group">
+      <div class="gallery-tile ph-media" style="aspect-ratio:5/6">
+        <img style="object-position:50% 50%" src="assets/img/legal-17.webp" alt="A copy of The Law on a wooden table" loading="lazy">
+        <span class="fx" aria-hidden="true"></span>
+        <div class="g-cap"><b>Consultations</b><span>Scheduling &amp; client flow</span></div>
+      </div>
+      <div class="gallery-tile ph-media" style="aspect-ratio:5/6">
+        <img style="object-position:50% 50%" src="assets/img/legal-03.webp" alt="Brass scales of justice beside a laptop" loading="lazy">
+        <span class="fx" aria-hidden="true"></span>
+        <div class="g-cap"><b>Reminders</b><span>Follow-up fixes from the intake desk</span></div>
+      </div>
+      <div class="gallery-tile ph-media" style="aspect-ratio:5/6">
+        <img style="object-position:45% 55%" src="assets/img/legal-20.webp" alt="A Statue of Liberty figurine on a laptop" loading="lazy">
+        <span class="fx" aria-hidden="true"></span>
+        <div class="g-cap"><b>Retention</b><span>Follow-ups, matter scores &amp; client drop-off</span></div>
+      </div>
+      <div class="gallery-tile ph-media" style="aspect-ratio:5/6">
+        <img style="object-position:50% 50%" src="assets/img/legal-16.webp" alt="Antique scales of justice with a gavel" loading="lazy">
+        <span class="fx" aria-hidden="true"></span>
+        <div class="g-cap"><b>Reports</b><span>Case results &amp; firm targets</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec-bone2">
+  <div class="wrap">
+    <div class="tabs-bar" style="margin-bottom:50px;">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="strength">Consultations</button>
+      <button data-filter="technique">Reminders</button>
+      <button data-filter="resolution">Retention</button>
+      <button data-filter="nutrition">Reports</button>
+    </div>
+    <div class="blog-grid reveal-group" data-anim="flip">
+      <a class="blog-card" href="404.html" data-cat="strength">
+        <div class="blog-thumb ph-media"><img style="object-position:50% 55%" src="assets/img/legal-19.webp" alt="Tiles spelling the word LAW" loading="lazy"><span class="blog-tag-photo">Case Planning</span></div>
+        <div class="blog-body">
+          <div class="blog-meta">Consultations · 6 min read</div>
+          <h3>Better case planning without the guesswork</h3>
+          <p>Adding consultation slots every week isn't a strategy — it's how a calm law firm turns into a crowded conference room. Here's what actually keeps clients moving, week after week.</p>
+          <span class="blog-read">Read the article <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+      <a class="blog-card" href="404.html" data-cat="technique">
+        <div class="blog-thumb ph-media"><img src="assets/img/legal-14.webp" alt="An attorney reviewing case papers with colleagues" loading="lazy"><span class="blog-tag-photo">Reminders</span></div>
+        <div class="blog-body">
+          <div class="blog-meta">Reminders · 8 min read</div>
+          <h3>Why missed consultations plateau (and how to fix it)</h3>
+          <p>Nine times out of ten it isn't your clients — it's your reminder timing. A case manager's breakdown of the usual suspects and the fixes that work.</p>
+          <span class="blog-read">Read the article <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+      <a class="blog-card" href="404.html" data-cat="resolution">
+        <div class="blog-thumb ph-media"><img style="object-position:50% 50%" src="assets/img/legal-13.webp" alt="A hand resting on a book titled The Law" loading="lazy"><span class="blog-tag-photo">Client Retention</span></div>
+        <div class="blog-body">
+          <div class="blog-meta">Retention · 5 min read</div>
+          <h3>Follow-up prep isn't optional — a guide to matter-score weeks</h3>
+          <p>Skipping your matter-score review doesn't save time. It makes your next follow-up riskier. Here's how we actually schedule them.</p>
+          <span class="blog-read">Read the article <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+      <a class="blog-card" href="404.html" data-cat="nutrition">
+        <div class="blog-thumb ph-media"><img style="object-position:50% 50%" src="assets/img/legal-11.webp" alt="Law books on a library shelf" loading="lazy"><span class="blog-tag-photo">Reports &amp; Analytics</span></div>
+        <div class="blog-body">
+          <div class="blog-meta">Reports · 7 min read</div>
+          <h3>Firm targets that survive a busy Monday</h3>
+          <p>Most weekly targets fall apart on a busy Monday. Here's the version our law firms actually stick to for a full year.</p>
+          <span class="blog-read">Read the article <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+      <a class="blog-card" href="404.html" data-cat="strength">
+        <div class="blog-thumb ph-media"><img style="object-position:55% 50%" src="assets/img/legal-04.webp" alt="Two attorneys reviewing a document on a tablet" loading="lazy"><span class="blog-tag-photo">Consultations</span></div>
+        <div class="blog-body">
+          <div class="blog-meta">Consultations · 9 min read</div>
+          <h3>How we actually plan a 12-week case cycle</h3>
+          <p>A look inside the case-cycle process every Stackly case manager uses, from first registration to the final review.</p>
+          <span class="blog-read">Read the article <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+      <a class="blog-card" href="404.html" data-cat="technique">
+        <div class="blog-thumb ph-media"><img style="object-position:50% 60%" src="assets/img/legal-18.webp" alt="Tiles spelling the word LAWYER" loading="lazy"><span class="blog-tag-photo">Reminders</span></div>
+        <div class="blog-body">
+          <div class="blog-meta">Reminders · 6 min read</div>
+          <h3>The record-hygiene mistake we see every week</h3>
+          <p>Your software isn't the problem. Your record discipline is. A simple fix that keeps client records accurate without adding headcount.</p>
+          <span class="blog-read">Read the article <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+      <a class="blog-card" href="404.html" data-cat="resolution">
+        <div class="blog-thumb ph-media"><img style="object-position:50% 40%" src="assets/img/legal-08.webp" alt="Lady Justice statue on a stone building" loading="lazy"><span class="blog-tag-photo">Client Retention</span></div>
+        <div class="blog-body">
+          <div class="blog-meta">Retention · 4 min read</div>
+          <h3>Client drop-off is the metric nobody wants to hear about</h3>
+          <p>We pulled the numbers from 200 client check-ins. Scheduled matter-score reviews predicted follow-up attendance better than anything else we track.</p>
+          <span class="blog-read">Read the article <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+      <a class="blog-card" href="404.html" data-cat="strength">
+        <div class="blog-thumb ph-media"><img src="assets/img/legal-15.webp" alt="A gavel striking its sound block" loading="lazy"><span class="blog-tag-photo">Consultations</span></div>
+        <div class="blog-body">
+          <div class="blog-meta">Consultations · 5 min read</div>
+          <h3>Matter logging: what actually counts</h3>
+          <p>Timestamp, client and a clear next step, every matter, not a judgment call. Here's how we grade it and why it matters.</p>
+          <span class="blog-read">Read the article <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+      <a class="blog-card" href="404.html" data-cat="nutrition">
+        <div class="blog-thumb ph-media"><img style="object-position:40% 55%" src="assets/img/legal-01.webp" alt="A judge's gavel on a desk beside a laptop and case files" loading="lazy"><span class="blog-tag-photo">Reports &amp; Analytics</span></div>
+        <div class="blog-body">
+          <div class="blog-meta">Reports · 6 min read</div>
+          <h3>Building enough coverage for a heavy filing season</h3>
+          <p>Under-booking is the most common reason a law firm's growth stalls. Signs you're leaving consultation slots empty.</p>
+          <span class="blog-read">Read the article <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FEATURED STORIES ===== -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="tag">Featured Stories</div>
+        <h2>Two stories from the practice floor.</h2>
+      </div>
+      <p class="lede">Longer reads on what changes when a law firm stops guessing and starts following its own numbers.</p>
+    </div>
+    <div class="feat-grid reveal-group">
+      <a class="feat-card" href="404.html">
+        <div class="feat-img"><img style="object-position:50% 45%" src="assets/img/legal-07.webp" alt="Lady Justice statue on a courthouse dome" loading="lazy"><span class="blog-tag-photo">Client Services</span></div>
+        <div class="feat-body">
+          <div class="blog-meta">Featured &middot; 7 min read</div>
+          <h3>How a Dindigul law firm cut turnaround time by 35%</h3>
+          <p>Staggered slots, one confirmation call the evening before and a shared dashboard for the intake desk. Here is the exact weekly routine, step by step, and what the case manager changed first.</p>
+          <span class="blog-read">Read the story <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+      <a class="feat-card" href="404.html">
+        <div class="feat-img"><img style="object-position:50% 40%" src="assets/img/legal-05.webp" alt="Attorneys meeting clients at a law firm" loading="lazy"><span class="blog-tag-photo">Practice Operations</span></div>
+        <div class="feat-body">
+          <div class="blog-meta">Featured &middot; 6 min read</div>
+          <h3>Reading the numbers: an attorney's guide to law firm reports</h3>
+          <p>Attendance, follow-up rate and average wait explained in plain language, plus the three reports every law firm lead should open before Monday morning rounds.</p>
+          <span class="blog-read">Read the story <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap split-media">
+    <div class="m-copy">
+      <div class="tag">Written For You, Specifically</div>
+      <h2>The blog is general. Your case plan isn't.</h2>
+      <p class="lede">Everything here is written for any law firm. A managed client or law firm gets the same reasoning applied to their exact numbers, their exact matters, their exact week.</p>
+      <div class="m-points">
+        <span>Weekly notes from your case manager reference your actual case cycle</span>
+        <span>Questions get answered for your situation, not a comment section</span>
+        <span>No ads, no affiliate links — just the practice guidance you're paying for</span>
+      </div>
+      <a class="btn btn-solid btn-sm" href="contact.html" style="margin-top:26px;">Talk to Lawyer</a>
+    </div>
+    <div class="m-visual">
+      <div class="media-panel ph-media tall">
+        <img src="assets/img/blog-team-retro.webp" alt="A laptop showing a team review slide" loading="lazy">
+        <div class="m-tag">Practice Notes, Personalised</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec-dark on-dark">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="tag">Most Read</div>
+        <h2>The practice notes law firms come back to.</h2>
+      </div>
+    </div>
+    <div class="feature-grid reveal-group" data-anim="pop">
+      <div class="feature-card" data-fx="scan"><i class="fx" aria-hidden="true"></i>
+        <div class="f-icon"><span class="mi mi-trending_up" aria-hidden="true"></span></div>
+        <h3>Better case planning, done right</h3>
+        <p>The most bookmarked post on the blog — why adding consultations blindly isn't a strategy.</p>
+        <div class="mr-meta"><span>#1 most read</span><span>3.2k reads</span></div>
+        <p class="mr-tip">Why slots, reminders and follow-ups must be planned together.</p>
+      </div>
+      <div class="feature-card" data-fx="glow"><i class="fx" aria-hidden="true"></i>
+        <div class="f-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="24" cy="24" r="18"/><circle cx="24" cy="24" r="11"/><circle cx="24" cy="24" r="4" fill="currentColor" stroke="none"/></svg></div>
+        <h3>The missed-consultation breakdown</h3>
+        <p>Our most-shared practice-ops post — the reminder-timing mistake behind most missed deadlines.</p>
+        <div class="mr-meta"><span>#2 most read</span><span>2.8k reads</span></div>
+        <p class="mr-tip">Send reminders 24 hours and 2 hours before the hearing, not once.</p>
+      </div>
+      <div class="feature-card" data-fx="shine"><i class="fx" aria-hidden="true"></i>
+        <div class="f-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M38 28a16 16 0 1 1-18-24 12 12 0 0 0 18 24z"/></svg></div>
+        <h3>Matter scores predict follow-up rates</h3>
+        <p>Data from 200 client check-ins — the retention post that changes routines.</p>
+        <div class="mr-meta"><span>#3 most read</span><span>2.1k reads</span></div>
+        <p class="mr-tip">Clients with a weekly check-in return for follow-ups far more often.</p>
+      </div>
+      <div class="feature-card" data-fx="heat"><i class="fx" aria-hidden="true"></i>
+        <div class="f-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="24" cy="24" r="18"/><circle cx="24" cy="24" r="9"/></svg></div>
+        <h3>Preparing for a heavy filing season</h3>
+        <p>The planning post we send to every law firm stuck on a growth plateau.</p>
+        <div class="mr-meta"><span>#4 most read</span><span>1.9k reads</span></div>
+        <p class="mr-tip">A simple buffer rule that keeps filing-season Mondays under control.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MEET THE WRITERS ===== -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="tag">Meet The Writers</div>
+        <h2>Every post is written by someone who runs a legal practice.</h2>
+      </div>
+      <p class="lede">Our authors work with live law firms every week, so the advice on this blog comes from the matters, calls and dashboards they manage.</p>
+    </div>
+    <div class="team-grid reveal-group" data-anim="slide">
+      <div class="team-card">
+        <div class="team-photo" data-fx="heat" style="aspect-ratio:1"><i class="fx" aria-hidden="true"></i><img src="assets/img/attorney-marcus.webp" alt="Marcus Cole, Head of Case Coordination" loading="lazy" width="640" height="640"></div>
+        <div class="team-info"><div class="c-name">Marcus Cole</div><div class="c-role">Head of Case Coordination</div><p class="c-bio">Writes about capacity planning, service-area design and cost per client.</p></div>
+      </div>
+      <div class="team-card">
+        <div class="team-photo" data-fx="brackets" style="aspect-ratio:1"><i class="fx" aria-hidden="true"></i><img src="assets/img/attorney-dana.webp" alt="Dana Reyes, Legal Enablement Lead" loading="lazy" width="640" height="640"></div>
+        <div class="team-info"><div class="c-name">Dana Reyes</div><div class="c-role">Legal Enablement Lead</div><p class="c-bio">Writes about staff training, reminder design and client flow.</p></div>
+      </div>
+      <div class="team-card">
+        <div class="team-photo" data-fx="aurora" style="aspect-ratio:1"><i class="fx" aria-hidden="true"></i><img src="assets/img/attorney-theo.webp" alt="Theo Bryant, Data &amp; Compliance Lead" loading="lazy" width="640" height="640"></div>
+        <div class="team-info"><div class="c-name">Theo Bryant</div><div class="c-role">Data &amp; Compliance Lead</div><p class="c-bio">Writes about data hygiene, client privacy and compliance.</p></div>
+      </div>
+      <div class="team-card">
+        <div class="team-photo" data-fx="beam" style="aspect-ratio:1"><i class="fx" aria-hidden="true"></i><img src="assets/img/attorney-arjun.webp" alt="Arjun Nair, Client Onboarding Lead" loading="lazy" width="640" height="640"></div>
+        <div class="team-info"><div class="c-name">Arjun Nair</div><div class="c-role">Client Onboarding Lead</div><p class="c-bio">Writes about registration flow, matter logging and adoption tracking.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BLOG FAQ ===== -->
+<section class="sec-bone2">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="tag">Blog Questions</div>
+        <h2>How the Stackly blog works.</h2>
+      </div>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item open">
+        <button class="faq-q"><span>How often do you publish new posts?</span><span class="plus">+</span></button>
+        <div class="faq-a" style="height:auto;"><p>We publish one or two posts a week. Each one is reviewed by a case manager who has handled the situation it describes.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Can I suggest a topic?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Yes. Send your question through the contact page or reply to the weekly newsletter. Topics that come up across several law firms usually become a post.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Are the posts written for my own law firm?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Blog posts are general. If you are a managed law firm, your case manager applies the same ideas to your own stages, volumes and consultation targets.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Can I share or republish an article?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>You can share links freely. If you want to republish a post in your own newsletter or intranet, contact us first and we will confirm the details.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="on-dark" style="background:var(--char); padding:0;">
+  <div class="logo-band" style="border-color:var(--line-dark);">
+    <div class="wrap">
+      <div class="lb-label">Read by law firms working toward</div>
+      <div style="overflow:hidden;">
+        <div class="logo-track">
+          <span>First 100 Clients</span><span>Firm Expansions</span><span>Corporate Partnerships</span><span>New Branches</span><span>Filing Season</span><span>New Practice Areas</span>
+          <span>First 100 Clients</span><span>Firm Expansions</span><span>Corporate Partnerships</span><span>New Branches</span><span>Filing Season</span><span>New Practice Areas</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NEWSLETTER ===== -->
+<section class="newsletter-cta">
+  <div class="wrap nl-row">
+    <div>
+      <div class="tag">Don't Miss The Next One</div>
+      <h2 style="margin-top:14px;">Get law firm practice notes before they're public.</h2>
+    </div>
+    <form class="nl-form" data-demo-form data-redirect-404>
+      <input type="email" placeholder="you@email.com" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <h2>Want law firm practice notes written for you, specifically?</h2>
+    <a class="btn btn-outline" href="contact.html">Talk to Lawyer</a>
+  </div>
+</section>
+
+<footer class="foot3">
+  <div class="wrap">
+    <div class="f3-top">
+      <div class="f3-brand">
+        <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo-brass.webp?v=5" alt="Stackly" width="145" height="42"></a>
+        <p>Client records, consultations and case management in one place, built around your law firm and not a template.</p>
+        <h5>Get the weekly law firm digest</h5>
+        <form class="f3-form" data-demo-form data-redirect-404><input type="email" placeholder="you@company.com" required aria-label="Email address"><button type="submit">Subscribe</button></form>
+      </div>
+      <div class="f3-cols">
+        <div><h5>Laws</h5><a href="404.html">Clients &amp; Consultations</a><a href="404.html">Deadlines &amp; Reminders</a><a href="404.html">Firm Growth &amp; Billing</a><a href="404.html">Pricing</a></div>
+        <div><h5>Quick Links</h5><a href="index.html">Home</a><a href="services.html">Laws</a><a href="about.html">About</a><a href="blog.html" class="active">Blog</a><a href="contact.html">Contact</a></div>
+        <div><h5>Reach us</h5><span class="line has-mi"><span class="mi mi-location_on" aria-hidden="true"></span><span>No. 24, Palani Road,<br>Dindigul,<br>Tamil Nadu 624001</span></span><span class="line has-mi"><span class="mi mi-call" aria-hidden="true"></span><span>8907654321</span></span><span class="line has-mi"><span class="mi mi-mail" aria-hidden="true"></span><span>success@stackly.example</span></span></div>
+      </div>
+    </div>
+    <div class="f3-bottom">
+      <span>&copy; 2026 Stackly. All rights reserved. &middot; Privacy &middot; Terms</span>
+      <span class="f3-status"><i></i> All systems operational</span>
+      <div class="f3-social">
+        <a href="404.html" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="404.html" aria-label="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><polygon points="10,9 16,12 10,15" fill="currentColor" stroke="none"/></svg></a>
+        <a href="404.html" aria-label="X"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="4" x2="20" y2="20"/><line x1="20" y1="4" x2="4" y2="20"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/legal.js" defer></script>
+</body>
+</html>

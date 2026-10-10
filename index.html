@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stackly — Legal Practice Management Built Around How Your Legal Team Works</title>
+<meta name="description" content="Stackly is legal practice-management software with a case flow that runs itself, a dedicated case manager watching every matter, and reporting that shows what is actually working.">
+<link rel="icon" type="image/png" href="assets/favicon.png?v=4">
+<link rel="icon" type="image/webp" href="assets/favicon.webp?v=4">
+<link rel="apple-touch-icon" href="assets/favicon.png?v=4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/theme.css?v=23">
+<link rel="stylesheet" href="assets/legal.css?v=1">
+<link rel="stylesheet" href="assets/updates.css?v=1">
+<style>
+@media (max-width:900px){ .nav-links,.nav-right{display:none !important;} .burger{display:flex !important;} }
+</style>
+</head>
+<body>
+<div id="preloader" aria-hidden="true"><div class="pl-inner"><img class="pl-logo-img" src="assets/logo-light.webp?v=4" alt="" width="280" height="81"><div class="pl-sub">LEGAL PLATFORM</div><div class="pl-line"><i></i></div></div></div>
+</div>
+
+<header>
+  <nav class="wrap">
+    <a class="brand" href="index.html">
+      <img class="brand-logo" src="assets/logo-brass.webp?v=5" alt="Stackly" width="145" height="42">
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="services.html">Laws</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-right">
+      <a class="login" href="login.html">Log in</a>
+      <a class="nav-cta" href="contact.html">Talk to Lawyer</a>
+    </div>
+    <div class="burger" id="burgerBtn"><span></span><span></span><span></span></div>
+  </nav>
+</header>
+
+<div class="mobile-nav-scrim" id="mobileNavScrim"></div>
+<div class="mobile-nav" id="mobileNav">
+  <a href="index.html" class="active">Home</a>
+  <a href="services.html">Laws</a>
+  <a href="about.html">About</a>
+  <a href="blog.html">Blog</a>
+  <a href="contact.html">Contact</a>
+  <a class="login" href="login.html">Log in</a>
+  <a class="nav-cta" href="contact.html">Talk to Lawyer</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero hero2 lh-hero">
+  <div class="wrap lh-grid">
+    <div class="lh-copy">
+      <div class="tag">Client Relationship Platform for Law Firms</div>
+      <h1 data-split>Cases move.<br>Clients <span class="hl">trust.</span></h1>
+      <p class="lede">Stackly brings client records, consultations, reminders and billing into one calm dashboard — for law firms that are done juggling spreadsheets and missed follow-ups.</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="contact.html">Talk to Lawyer</a>
+        <a class="btn btn-outline" href="services.html">See the Laws</a>
+      </div>
+      <div class="hero-foot h2-stats">
+        <div><b data-count="640" data-suffix="+" data-delay="1.2">640+</b><span>Active Law Firms</span></div>
+        <div><b data-count="2.4" data-suffix="M" data-delay="1.2">2.4M</b><span>Clients Managed</span></div>
+        <div><b data-count="98" data-suffix="%" data-delay="1.2">98%</b><span>On-Time Follow-Up</span></div>
+      </div>
+    </div>
+    <div class="lh-visual" aria-hidden="true">
+      <div class="lh-paper lh-p1"></div><div class="lh-paper lh-p2"></div>
+      <article class="lh-case">
+        <div class="lh-head"><span class="lh-ref">Matter &middot; CL-2041</span><span class="lh-chip"><i></i>In progress</span></div>
+        <h3>Brightwave Retail v. Aster Holdings</h3>
+        <p class="lh-sub">Corporate Law &middot; Dindigul Bench</p>
+        <ol class="lh-steps">
+          <li class="done"><i></i><b>Intake &amp; engagement</b><small>12 Sep</small></li>
+          <li class="done"><i></i><b>Petition filed</b><small>20 Sep</small></li>
+          <li class="now"><i></i><b>First hearing</b><small>14 Oct</small></li>
+          <li><i></i><b>Judgment</b><small>Pending</small></li>
+        </ol>
+        <div class="lh-barlab"><span>Case progress</span><b>68%</b></div>
+        <div class="lh-bar"><i></i></div>
+        <div class="lh-foot"><div class="lh-av"><i>M</i><i>A</i><i>K</i></div><span>3 attorneys assigned</span></div>
+      </article>
+      <div class="lh-note lh-n1"><span>&#9878;</span><div><b>Next hearing</b><small>14 Oct &middot; 10:30 AM</small></div></div>
+      <div class="lh-note lh-n2"><span>&#10003;</span><div><b>48 reminders sent</b><small>Every client confirmed</small></div></div>
+      <svg class="lh-seal" viewBox="0 0 120 120"><defs><path id="lhc" d="M60,60 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0"/></defs><circle cx="60" cy="60" r="58" class="lh-s-bg"/><g class="lh-s-ring"><text><textPath href="#lhc">TRUSTED BY LAW FIRMS &#9670; SINCE 2018 &#9670; </textPath></text></g><text x="60" y="73" text-anchor="middle" class="lh-s-ico">&#9878;</text></svg>
+    </div>
+  </div>
+  <div class="marquee">
+    <div class="marquee-track"><span>Consultations</span><span>Client Records</span><span>Reminders</span><span>Billing</span><span>Reports</span><span>Follow-ups</span><span>Consultations</span><span>Client Records</span><span>Reminders</span><span>Billing</span><span>Reports</span><span>Follow-ups</span></div>
+  </div>
+</section>
+
+<!-- ===== PROGRAMS ===== -->
+<section id="programs">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="tag">Laws</div>
+        <h2>Three ways to run your law firm.</h2>
+      </div>
+      <p class="lede">Every plan starts with a workflow audit — we build around your law firm's client flow, team size and case journey, not a template.</p>
+    </div>
+    <div class="grid-3 reveal-group">
+      <div class="prog-card">
+        <div class="pc-img ph-media" style="aspect-ratio:4/3">
+          <img style="object-position:50% 65%" src="assets/img/legal-15.webp" alt="A gavel striking its sound block" loading="lazy">
+          <span class="pc-media-tag">Client service</span>
+        </div>
+        <div class="pc-num">01</div>
+        <h3>Client &amp; Matter Management</h3>
+        <p>End-to-end consultation tracking, case-step automation and reporting — with one dashboard accountable for every client, not just their first consultation.</p>
+        <div class="pc-list">
+          <span>Onboarding in under 3 weeks</span>
+          <span>Weekly client-flow &amp; case review</span>
+          <span>Custom case steps for any specialty</span>
+        </div>
+        <a class="pc-link" href="services.html">View laws <span class="mi mi-arrow_forward" aria-hidden="true"></span></a>
+      </div>
+      <div class="prog-card">
+        <div class="pc-img ph-media" style="aspect-ratio:4/3">
+          <img style="object-position:55% 45%" src="assets/img/legal-12.webp" alt="A Lady Justice statue on a dark desk" loading="lazy">
+          <span class="pc-media-tag">Practice resources</span>
+        </div>
+        <div class="pc-num">02</div>
+        <h3>Deadlines &amp; Reminders</h3>
+        <p>Sequenced email, calls and follow-ups across every channel — with live matter tracking and missed-consultation alerts for every client.</p>
+        <div class="pc-list">
+          <span>Practice-area deadline schedules</span>
+          <span>Peak-season capacity cover</span>
+          <span>Monthly workflow performance review</span>
+        </div>
+        <a class="pc-link" href="services.html">View laws <span class="mi mi-arrow_forward" aria-hidden="true"></span></a>
+      </div>
+      <div class="prog-card">
+        <div class="pc-img ph-media" style="aspect-ratio:4/3">
+          <img style="object-position:50% 50%" src="assets/img/legal-11.webp" alt="Law books on a library shelf" loading="lazy">
+          <span class="pc-media-tag">Case reports</span>
+        </div>
+        <div class="pc-num">03</div>
+        <h3>Firm Growth &amp; Billing</h3>
+        <p>Service-area planning, consultation targets and attendance analysis that cut cost per client — reviewed with real data, every week.</p>
+        <div class="pc-list">
+          <span>Cost + attendance analytics</span>
+          <span>Weekly reports &amp; attendance reviews</span>
+          <span>Flexible slots, no minimums</span>
+        </div>
+        <a class="pc-link" href="services.html">View laws <span class="mi mi-arrow_forward" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY STACKLY (feature grid) ===== -->
+<section class="sec-bone2">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="tag">Why Stackly</div>
+        <h2>Four things every law firm gets.</h2>
+      </div>
+      <p class="lede">Nothing here is a nice-to-have add-on — it's the baseline for every plan we run.</p>
+    </div>
+    <div class="feature-grid reveal-group" data-anim="pop">
+      <div class="feature-card">
+        <div class="fc-photo"><img style="object-position:50% 50%" src="assets/img/legal-03.webp" alt="Brass scales of justice beside a laptop" loading="lazy"></div>
+        <div class="fc-body">
+        <div class="f-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="8" width="28" height="34" rx="2"/><rect x="17" y="4" width="14" height="8" rx="1.5"/><polyline points="16,25 21,30 32,18"/></svg></div>
+        <h3>A case manager watches every client</h3>
+        <p>Not just a dashboard view — a case manager who acts on the risk signal before you have to ask.</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="fc-photo"><img style="object-position:50% 50%" src="assets/img/legal-17.webp" alt="A copy of The Law on a wooden table" loading="lazy"></div>
+        <div class="fc-body">
+        <div class="f-icon"><span class="mi mi-trending_up" aria-hidden="true"></span></div>
+        <h3>Records, not guesswork</h3>
+        <p>Every quarter ends with a law firm review, so "faster and cheaper" is a figure you can see.</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="fc-photo"><img style="object-position:60% 40%" src="assets/img/legal-09.webp" alt="A shelf of leather-bound law reports" loading="lazy"></div>
+        <div class="fc-body">
+        <div class="f-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="9" width="36" height="33" rx="2"/><line x1="6" y1="18" x2="42" y2="18"/><line x1="15" y1="4" x2="15" y2="12"/><line x1="33" y1="4" x2="33" y2="12"/></svg></div>
+        <h3>Built around your law firm</h3>
+        <p>Your case steps, consultation targets and follow-up windows come first — the platform is built around them.</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="fc-photo"><img style="object-position:50% 50%" src="assets/img/legal-13.webp" alt="A hand resting on a book titled The Law" loading="lazy"></div>
+        <div class="fc-body">
+        <div class="f-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 4l16 6v12c0 12-8 18-16 22-8-4-16-10-16-22V10z"/><polyline points="16,24 21,29 32,18"/></svg></div>
+        <h3>No long lock-ins</h3>
+        <p>Every plan bills monthly. You stay because follow-ups happen on time, not because you're locked in.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== METHOD ===== -->
+<section class="sec-dark on-dark">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="tag">How It Works</div>
+        <h2>The journey every client takes.</h2>
+      </div>
+      <p class="lede">No two law firms look the same, but every one of them follows the same four steps.</p>
+    </div>
+    <div>
+      <div class="method-row">
+        <div class="m-num">01</div>
+        <div><h3>Consultation</h3><p>A workflow audit and a real conversation about your client load, team size, consultation target and follow-up windows — before a single case step is configured.</p></div>
+      </div>
+      <div class="method-row">
+        <div class="m-num">02</div>
+        <div><h3>Check-in</h3><p>Your case manager designs a case pathway around what you told them — not a template pulled off a shelf. Every step has a reason.</p></div>
+      </div>
+      <div class="method-row">
+        <div class="m-num">03</div>
+        <div><h3>Case Management</h3><p>Live client tracking, weekly matter reviews and same-day intervention when a client isn't progressing the way the plan expected.</p></div>
+      </div>
+      <div class="method-row">
+        <div class="m-num">04</div>
+        <div><h3>Follow-up</h3><p>We review the numbers together and plan the next quarter bigger, leaner, or different — depending on what the data says.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRAINING FLOOR (split media) ===== -->
+<section>
+  <div class="wrap split-media">
+    <div class="m-copy">
+      <div class="tag">Wherever You Practice</div>
+      <h2>One attorney or a full corporate team — the platform doesn't change.</h2>
+      <p class="lede">Every matter, follow-up and invoice runs through the Stackly dashboard, so it works the same whether you're one attorney or a full law firm team.</p>
+      <div class="m-points">
+        <span>Case steps adapt to whatever process your team already runs</span>
+        <span>Activity captured from any device, no special gear</span>
+        <span>Same case manager, same standard, for every client</span>
+      </div>
+    </div>
+    <div class="m-visual">
+      <div class="media-panel ph-media tall">
+        <img style="object-position:55% 45%" src="assets/img/legal-06.webp" alt="An attorney working at a laptop with scales of justice on the desk" loading="lazy">
+        <div class="mp-overlay">
+          <div class="mu-row"><span class="mu-dot"></span><span style="flex:1">Ravi Kumar · Corporate Law</span><span class="mu-chip">Confirmed</span></div>
+          <div class="mu-row"><span class="mu-dot" style="background:var(--ember)"></span><span style="flex:1">Anitha S. · Property Law</span><span class="mu-chip" style="background:rgba(123,30,47,.12);color:var(--ember-deep)">Awaiting</span></div>
+          <div class="mu-row"><span class="mu-dot" style="background:var(--steel-dim)"></span><span style="flex:1">Karthik M. · Family Law</span><span class="mu-chip" style="background:rgba(184,137,59,.18);color:#A2650B">Follow-up due</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="sec-bone2">
+  <div class="wrap">
+    <div class="stat-grid reveal-group" data-anim="drop">
+      <div class="stat-card">
+        <div class="s-num"><span data-count="640" data-suffix="+">640+</span></div>
+        <div class="s-lbl">Active Teams</div>
+      </div>
+      <div class="stat-card">
+        <div class="s-num"><span data-count="2.4" data-suffix="M">2.4M</span></div>
+        <div class="s-lbl">Matters Managed</div>
+      </div>
+      <div class="stat-card">
+        <div class="s-num"><span data-count="98" data-suffix="%">98%</span></div>
+        <div class="s-lbl">On-Time Follow-Up</div>
+      </div>
+      <div class="stat-card">
+        <div class="s-num"><span data-count="6" data-suffix=" yrs">6 yrs</span></div>
+        <div class="s-lbl">Avg. Team Experience</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== A WEEK INSIDE STACKLY ===== -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="tag">A Week Inside Stackly</div>
+        <h2>What partnering with Stackly actually looks like, week to week.</h2>
+      </div>
+      <p class="lede">Four touchpoints every single week — not a platform you never hear back from.</p>
+    </div>
+    <div class="gallery-grid reveal-group">
+      <div class="gallery-tile ph-media" style="aspect-ratio:5/6">
+        <img style="object-position:45% 50%" src="assets/img/legal-07.webp" alt="Lady Justice statue on a courthouse dome" loading="lazy">
+        <div class="g-cap"><b>Workflow Audit</b><span>Client flow, targets &amp; goals</span></div>
+      </div>
+      <div class="gallery-tile ph-media" style="aspect-ratio:5/6">
+        <img style="object-position:40% 40%" src="assets/img/legal-05.webp" alt="Attorneys meeting clients at a law firm" loading="lazy">
+        <div class="g-cap"><b>Weekly Client-Flow Review</b><span>Risk caught early</span></div>
+      </div>
+      <div class="gallery-tile ph-media" style="aspect-ratio:5/6">
+        <img style="object-position:40% 55%" src="assets/img/legal-01.webp" alt="A judge's gavel on a desk beside a laptop and case files" loading="lazy">
+        <div class="g-cap"><b>Live Chat &amp; Support</b><span>Real answers, same day</span></div>
+      </div>
+      <div class="gallery-tile ph-media" style="aspect-ratio:5/6">
+        <img style="object-position:50% 40%" src="assets/img/legal-08.webp" alt="Lady Justice statue on a stone building" loading="lazy">
+        <div class="g-cap"><b>Quarterly Law Firm Review</b><span>Growth &amp; attendance data, compared</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TEAM PREVIEW ===== -->
+<section class="sec-dark on-dark">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="tag">Your Legal Team</div>
+        <h2>People who look after clients, for firms that serve them.</h2>
+      </div>
+      <a class="btn btn-outline btn-sm" href="404.html">Meet the full team</a>
+    </div>
+    <div class="team-grid reveal-group" data-anim="slide">
+      <div class="team-card">
+        <div class="team-photo" data-fx="beam" style="aspect-ratio:1"><i class="fx" aria-hidden="true"></i><img src="assets/img/attorney-marcus.webp" alt="Marcus Cole, Head of Case Coordination" loading="lazy" width="640" height="640"></div>
+        <div class="team-info"><div class="c-name">Marcus Cole</div><div class="c-role">Head of Case Coordination</div></div>
+      </div>
+      <div class="team-card">
+        <div class="team-photo" data-fx="spot" style="aspect-ratio:1"><i class="fx" aria-hidden="true"></i><img src="assets/img/attorney-dana.webp" alt="Dana Reyes, Legal Enablement Lead" loading="lazy" width="640" height="640"></div>
+        <div class="team-info"><div class="c-name">Dana Reyes</div><div class="c-role">Legal Enablement Lead</div></div>
+      </div>
+      <div class="team-card">
+        <div class="team-photo" data-fx="scan" style="aspect-ratio:1"><i class="fx" aria-hidden="true"></i><img src="assets/img/attorney-theo.webp" alt="Theo Bryant, Data &amp; Compliance Lead" loading="lazy" width="640" height="640"></div>
+        <div class="team-info"><div class="c-name">Theo Bryant</div><div class="c-role">Data &amp; Compliance Lead</div></div>
+      </div>
+      <div class="team-card">
+        <div class="team-photo" data-fx="glow" style="aspect-ratio:1"><i class="fx" aria-hidden="true"></i><img src="assets/img/attorney-arjun.webp" alt="Arjun Nair, Client Onboarding Lead" loading="lazy" width="640" height="640"></div>
+        <div class="team-info"><div class="c-name">Arjun Nair</div><div class="c-role">Client Onboarding Lead</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LOGO / PRESS BAND ===== -->
+<section class="sec-dark on-dark" style="padding:0;">
+  <div class="logo-band">
+    <div class="wrap">
+      <div class="lb-label">Practice areas we support</div>
+      <div style="overflow:hidden;">
+        <div class="logo-track">
+          <span>Corporate Law</span><span>Family Law</span><span>Property Law</span><span>IP &amp; Technology</span><span>Tax &amp; Compliance</span><span>Employment Law</span>
+          <span>Corporate Law</span><span>Family Law</span><span>Property Law</span><span>IP &amp; Technology</span><span>Tax &amp; Compliance</span><span>Employment Law</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="tag">Results</div>
+        <h2>What law firms say once their matters run smoothly.</h2>
+      </div>
+    </div>
+    <div class="quote-row reveal-group">
+      <div class="quote-card" data-fx="glow"><i class="fx" aria-hidden="true"></i>
+        <p>I'd been stuck at the same attendance rate for two years. Twelve weeks with Stackly and I finally understood why — it wasn't effort, it was record keeping.</p>
+        <div class="q-person"><span class="q-av avatar-mono" style="background-image:url(assets/img/avatar-jm.webp);background-size:cover;background-position:center;color:transparent;width:48px;height:48px;border-radius:50%;font-size:15px">JM</span><div><div class="q-who">Jordan M.</div><div class="q-role">Client &amp; Matter Management</div></div></div>
+      </div>
+      <div class="quote-card" data-fx="shine"><i class="fx" aria-hidden="true"></i>
+        <p>Weekly case reviews caught a missed follow-up before it went cold. That alone was worth the switch.</p>
+        <div class="q-person"><span class="q-av avatar-mono alt" style="background-image:url(assets/img/avatar-ps.webp);background-size:cover;background-position:center;color:transparent;width:48px;height:48px;border-radius:50%;font-size:15px">PS</span><div><div class="q-who">Priya S.</div><div class="q-role">Deadlines &amp; Reminders</div></div></div>
+      </div>
+      <div class="quote-card" data-fx="heat"><i class="fx" aria-hidden="true"></i>
+        <p>Case management without the guilt trip. I actually look forward to my weekly check-in now.</p>
+        <div class="q-person"><span class="q-av avatar-mono" style="background-image:url(assets/img/avatar-ar.webp);background-size:cover;background-position:center;color:transparent;width:48px;height:48px;border-radius:50%;font-size:15px">AR</span><div><div class="q-who">Alex R.</div><div class="q-role">Firm Growth &amp; Billing</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BLOG PREVIEW ===== -->
+<section class="sec-bone2">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="tag">From the Blog</div>
+        <h2>Law Firm notes, not industry noise.</h2>
+      </div>
+      <a class="btn btn-outline btn-sm" href="blog.html">Read the blog</a>
+    </div>
+    <div class="blog-grid reveal-group" data-anim="flip">
+      <a class="blog-card" href="404.html">
+        <div class="blog-thumb ph-media">
+          <img style="object-position:50% 55%" src="assets/img/legal-19.webp" alt="Tiles spelling the word LAW" loading="lazy">
+          <span class="blog-tag-photo">Reports &amp; Analytics</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-meta">Consultations · 6 min read</div>
+          <h3>Cutting client missed deadlines without the guesswork</h3>
+          <p>Adding tools every quarter isn't a strategy — it's how costs spiral. Here's what actually keeps clients moving.</p>
+          <span class="blog-read">Read the article <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+      <a class="blog-card" href="404.html">
+        <div class="blog-thumb ph-media">
+          <img style="object-position:50% 50%" src="assets/img/legal-16.webp" alt="Antique scales of justice with a gavel" loading="lazy">
+          <span class="blog-tag-photo">Case Management</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-meta">Onboarding · 8 min read</div>
+          <h3>Why client retention plateaus (and how to fix it)</h3>
+          <p>Nine times out of ten it isn't your clients — it's your reminder timing. A breakdown of the usual suspects.</p>
+          <span class="blog-read">Read the article <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+      <a class="blog-card" href="404.html">
+        <div class="blog-thumb ph-media">
+          <img style="object-position:45% 55%" src="assets/img/legal-20.webp" alt="A Statue of Liberty figurine on a laptop" loading="lazy">
+          <span class="blog-tag-photo">Client Retention</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-meta">Customer Success · 5 min read</div>
+          <h3>Consultation coverage isn't optional — a guide to capacity planning</h3>
+          <p>Skipping consultation coverage doesn't save time. It makes your next quarter slower. Here's how we plan it.</p>
+          <span class="blog-read">Read the article <span class="mi mi-arrow_forward" aria-hidden="true"></span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NEWSLETTER ===== -->
+<section class="newsletter-cta">
+  <div class="nl-photo"><img style="object-position:55% 50%" src="assets/img/legal-04.webp" alt="Two attorneys reviewing a document on a tablet" loading="lazy"></div>
+  <div class="wrap nl-row">
+    <div>
+      <div class="tag">One Email A Week</div>
+      <h2 style="margin-top:14px;">Law firm insights, straight from the legal team.</h2>
+    </div>
+    <form class="nl-form" data-demo-form data-redirect-404>
+      <input type="email" placeholder="you@email.com" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta-band cta-photo-band">
+  <img style="object-position:55% 40%" src="assets/img/legal-21.webp" alt="An attorney typing beside a gavel" aria-hidden="true" loading="lazy">
+  <div class="wrap">
+    <h2>Your first consultation starts with a conversation, not a contract.</h2>
+    <a class="btn btn-outline" href="contact.html">Talk to Lawyer</a>
+  </div>
+</section>
+
+<footer class="foot3">
+  <div class="wrap">
+    <div class="f3-top">
+      <div class="f3-brand">
+        <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo-brass.webp?v=5" alt="Stackly" width="145" height="42"></a>
+        <p>Client records, consultations and case management in one place, built around your law firm and not a template.</p>
+        <h5>Get the weekly law firm digest</h5>
+        <form class="f3-form" data-demo-form data-redirect-404><input type="email" placeholder="you@company.com" required aria-label="Email address"><button type="submit">Subscribe</button></form>
+      </div>
+      <div class="f3-cols">
+        <div><h5>Laws</h5><a href="404.html">Clients &amp; Consultations</a><a href="404.html">Deadlines &amp; Reminders</a><a href="404.html">Firm Growth &amp; Billing</a><a href="404.html">Pricing</a></div>
+        <div><h5>Quick Links</h5><a href="index.html" class="active">Home</a><a href="services.html">Laws</a><a href="about.html">About</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div>
+        <div><h5>Reach us</h5><span class="line has-mi"><span class="mi mi-location_on" aria-hidden="true"></span><span>No. 24, Palani Road,<br>Dindigul,<br>Tamil Nadu 624001</span></span><span class="line has-mi"><span class="mi mi-call" aria-hidden="true"></span><span>8907654321</span></span><span class="line has-mi"><span class="mi mi-mail" aria-hidden="true"></span><span>success@stackly.example</span></span></div>
+      </div>
+    </div>
+    <div class="f3-bottom">
+      <span>&copy; 2026 Stackly. All rights reserved. &middot; Privacy &middot; Terms</span>
+      <span class="f3-status"><i></i> All systems operational</span>
+      <div class="f3-social">
+        <a href="404.html" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="404.html" aria-label="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><polygon points="10,9 16,12 10,15" fill="currentColor" stroke="none"/></svg></a>
+        <a href="404.html" aria-label="X"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="4" x2="20" y2="20"/><line x1="20" y1="4" x2="4" y2="20"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/legal.js" defer></script>
+</body>
+</html>
